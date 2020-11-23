@@ -2,11 +2,16 @@
     margin: 0mm;
 }
 
- body {
+body {  
     background-image: url(https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
 }
 
 p {
+    padding: 20px 0px;
     line-height: 35px;
     margin-left: 10mm;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -21,9 +26,19 @@ h1 {
     color: grey;
 }
 
+h3 {
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 10mm;
+    color: rgb(87, 81, 81);
+}
+
+#title {
+    padding: 40px 0px;
+}
 #photo-description {
     text-justify: auto;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 350px;
     max-width: 500px;
     color: blanchedalmond;
@@ -37,18 +52,14 @@ h1 {
 }
 
 #hability {
+    padding-bottom: 40px;
     line-height: 30px;
     margin-left: 10mm;
-    margin-left: 50px;
     color: blanchedalmond;
 }
 
-h3 {
-    margin-left: 10mm;
-    color: rgb(87, 81, 81);
-}
-
 #foto {
+    box-shadow: 10px 20px 30px 20px #000000;
     margin-top: 10mm;
     margin-left: 10mm;
     margin-bottom: 10mm;
@@ -64,9 +75,14 @@ h3 {
 }
 
 #botton-page {
+    padding: 20px 0px 40px 0px; 
     text-align: center;
     margin-bottom: 20mm;
     background-color: rgba(194, 194, 194, 0.733);
+}
+
+#blog {
+    font-size: 20px;
 }
 
 a:link {
@@ -82,10 +98,6 @@ a:visited {
 .links {
     margin-left: 10mm;
     margin-right: 10mm;
-}
-
-#blog {
-    font-size: 20px;
 }
 
 .em {
