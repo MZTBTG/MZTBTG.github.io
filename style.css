@@ -8,6 +8,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: initial;
+    display: ;
 }
 
 p {
@@ -36,6 +37,29 @@ h3 {
 #title {
     padding: 40px 0px;
 }
+/*#titulo {
+  font-size: 3em;
+  padding-left: 9%;
+  margin: 1%;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: rgb(15 , 163 , 107);
+  color: rgb(253 , 251 , 251);
+}
+
+header {
+  width: 100%;
+  height: 500px;
+  background-image: url('https://blog.betrybe.com/wp-content/uploads/2020/03/fot-trybe-texto-lucas-scaled-1-1920x1024.jpg');
+  background-size: cover;
+  margin-top: 5%;
+}
+*/
 #photo-description {
     text-justify: auto;
     margin-top: 50px;
